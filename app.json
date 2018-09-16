@@ -1,0 +1,26 @@
+{
+  "name": "pdfGeneratorRuby",
+  "description": "This app is HTML to PDF service.",
+  "keywords": [
+    "pdf",
+    "html",
+    "html to pdf",
+    "html 2 pdf",
+    "convert html 2 pdf free"
+  ],
+  "website": "https://github.com/preachx/pdfGeneratorRuby",
+  "repository": "https://github.com/preachx/pdfGeneratorRuby",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
+    },
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}

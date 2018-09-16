@@ -1,24 +1,10 @@
-# README
+# PDF Generator - Convert HTML to PDF
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+PDF Generator is a rails application which helps convert html to pdf. 
 
-Things you may want to cover:
+To use it, clone the repository and run 
+> bundle install
 
-* Ruby version
+This project has no dependencies on resources other than wicked_pdf. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
