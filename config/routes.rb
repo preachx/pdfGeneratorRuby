@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get '/things', ThingsController
+  post '/things', to: 'things#show'
 end

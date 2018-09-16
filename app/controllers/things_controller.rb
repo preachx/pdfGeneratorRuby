@@ -1,10 +1,9 @@
 class ThingsController < ApplicationController
+  skip_before_action :verify_authenticity_token
   def show
-    respond_to do |format|
-      format.html
-      format.pdf do
-        render pdf: "file_name"   # Excluding ".pdf" extension.
-      end
-    end
+    @html = params[:html]
+    render pdf: "file_name",
+        dpi: 500,
+        print_media_type: true
   end
 end
